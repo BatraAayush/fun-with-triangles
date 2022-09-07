@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Triangle Quiz</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1>QUIZ</h1>
+        <form id="quiz-form">
+            <div class="question-container">
+                <div>
+                    <strong>Question 1:</strong> What is the third angle for the
+                    triangle where angle1 = 45° and angle2 = 45°?
+                </div>
+                <strong>Options: </strong>
+                <label><input type="radio" name="1" value="45°" />45°</label>
+                <label><input type="radio" name="1" value="90°" />90°</label>
+                <label><input type="radio" name="1" value="60°" />60°</label>
+            </div>
+            <div class="question-container">
+                <div>
+                    <strong>Question 2:</strong> If a triangle has an angle of
+                    90 degrees, what is it called?
+                </div>
+                <strong>Options: </strong>
+                <label
+                    ><input type="radio" name="2" value="obtuse" />obtuse</label
+                >
+                <label
+                    ><input type="radio" name="2" value="acute" />acute</label
+                >
+                <label
+                    ><input type="radio" name="2" value="right angled" />right
+                    angled</label
+                >
+            </div>
+        </form>
+        <button id="check">CHECK</button>
+        <h2 id="output"></h2>
+
+        <script src="triangle-quiz.js"></script>
+    </body>
+</html>
