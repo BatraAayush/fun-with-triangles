@@ -1,7 +1,7 @@
 :root {
     --black: #3d3a3a;
     --white: #ffffff;
-    --green: #5cdb95;
+    --blue: #5c8cdb;
 }
 
 body {
@@ -18,7 +18,7 @@ section {
 
 /* navbar */
 nav {
-    background-color: var(--green);
+    background-color: var(--blue);
     padding: 1rem 0;
 }
 
@@ -77,6 +77,6 @@ button {
 }
 
 button:hover {
-    background-color: var(--green);
+    background-color: var(--blue);
     color: var(--white);
 }
