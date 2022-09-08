@@ -9,22 +9,26 @@
     </head>
     <body>
         <nav>
+            <h2></h2>
             <ul>
                 <li><a href="is-triangles.html">Is Triangle</a></li>
                 <li><a href="traingle-quiz.html">Quiz</a></li>
                 <li><a href="hypotenuse.html">Hypotenuse</a></li>
-                <li><a href="#">Area</a></li>
+                <li><a class="active" href="#">Area</a></li>
             </ul>
         </nav>
-        <h1>Area of Right Angled Triangle</h1>
-        <label for="side">Base (cm) </label>
-        <input class="side" type="text" />
-        <br />
-        <label for="side">height (cm) </label>
-        <input class="side" type="text" />
-        <br />
-        <button id="calculate">CALCULATE</button>
-        <h2 id="output"></h2>
+        <section>
+            <h1>Area of Right Angled Triangle</h1>
+            <label for="side">Base (cm) </label>
+            <input class="side" type="number" />
+            <br />
+            <label for="side">height (cm) </label>
+            <input class="side" type="number" />
+            <br />
+            <button id="calculate">CALCULATE</button>
+            <h2 id="output"></h2>
+        </section>
+
         <script src="area.js"></script>
     </body>
 </html>

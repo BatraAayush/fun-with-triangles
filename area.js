@@ -13,5 +13,5 @@ calculateBtn.addEventListener("click", () => {
 function calculateArea(base, height) {
     //AREA = 1/2 (base * height)
     const area = 0.5 * (base * height);
-    output.innerHTML = "Area is " + area.toFixed(2) + "cm";
+    output.innerHTML = "Area is " + area.toFixed(2) + " cm square";
 }

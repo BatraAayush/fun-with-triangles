@@ -10,21 +10,25 @@
     <body>
         <nav>
             <ul>
-                <li><a href="is-triangles.html">Is Triangle</a></li>
+                <li>
+                    <a href="is-triangles.html">Is Triangle</a>
+                </li>
                 <li><a href="traingle-quiz.html">Quiz</a></li>
-                <li><a href="#">Hypotenuse</a></li>
+                <li><a class="active" href="#">Hypotenuse</a></li>
                 <li><a href="area.html">Area</a></li>
             </ul>
         </nav>
-        <h1>Hypotenuse of Right Angled Triangle</h1>
-        <label for="side">Side 1(cm) </label>
-        <input class="side" type="text" />
-        <br />
-        <label for="side">Side 2(cm) </label>
-        <input class="side" type="text" />
-        <br />
-        <button id="calculate">CALCULATE</button>
-        <h2 id="output"></h2>
+        <section>
+            <h1>Hypotenuse of Right Angled Triangle</h1>
+            <label for="side">Side 1(cm) </label>
+            <input class="side" type="number" />
+            <br />
+            <label for="side">Side 2(cm) </label>
+            <input class="side" type="number" />
+            <br />
+            <button id="calculate">CALCULATE</button>
+            <h2 id="output"></h2>
+        </section>
 
         <script src="hypotenuse.js"></script>
     </body>
