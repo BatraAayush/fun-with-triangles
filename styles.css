@@ -6,6 +6,7 @@
 
 body {
     margin: 0;
+    margin-bottom: 70px;
     color: var(--white);
     background-color: var(--black);
     font-size: large;

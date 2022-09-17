@@ -4,10 +4,10 @@ const output = document.querySelector("#output");
 
 checkBtn.addEventListener("click", () => {
     //validity
-    if (input[0].value && input[1].value && input[2].value) {
+    if (input[0].value > 0 && input[1].value > 0 && input[2].value > 0) {
         checkIfTriangle();
     } else {
-        output.innerHTML = "Please Enter Input!";
+        output.innerHTML = "Please Enter Valid Input!";
     }
 });
 

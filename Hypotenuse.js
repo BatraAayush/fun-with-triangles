@@ -3,10 +3,10 @@ const calculateBtn = document.querySelector("#calculate");
 const output = document.querySelector("#output");
 
 calculateBtn.addEventListener("click", () => {
-    if (side[0].value && side[1].value) {
+    if (side[0].value > 0 && side[1].value > 0) {
         calculateHypo(Number(side[0].value), Number(side[1].value));
     } else {
-        output.innerHTML = "Enter Input!";
+        output.innerHTML = "Please Enter Valid Input!";
     }
 });
 
